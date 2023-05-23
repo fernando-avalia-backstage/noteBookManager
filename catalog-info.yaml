@@ -8,9 +8,9 @@ metadata:
     - Test for Backstage 
     - Treated as a component
   tags:
-    - Java
-    - Springboot
-    - Backstage
+    - java
+    - springboot
+    - backstage
   links:
     - url: https://github.com/fernando-avalia/noteBookManager
       title: GitHub Repo
