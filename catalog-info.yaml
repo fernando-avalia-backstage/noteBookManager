@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: noteBookManager
+  Title: NoteBook Manager
+  description: |
+    Spring boot Restful API + Swagger Example:
+    - Test for Backstage 
+    - Treated as a component
+  tags:
+    - Java
+	- Springboot
+	- Backstage
+  links:
+    - url: https://github.com/fernando-avalia/noteBookManager
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  system: "lab"
