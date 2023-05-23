@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: notebookmanager
+  name: notebook-manager
   Title: NoteBook Manager
   description: |
     Spring boot Restful API + Swagger Example:
