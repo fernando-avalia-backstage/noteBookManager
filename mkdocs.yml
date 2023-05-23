@@ -1,0 +1,11 @@
+site_name: 'notebook-manager'
+site_description: 'Main documentation'
+repo_url: https://github.com/fernando-avalia/noteBookManager
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Getting Started:
+      - Getting Started: 'docs/index.md'
