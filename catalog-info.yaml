@@ -9,6 +9,7 @@ metadata:
     - Treated as a component
   annotations:
     github.com/project-slug: fernando-avalia/noteBookManager
+    backstage.io/techdocs-ref: dir:.
   tags:
     - java
     - springboot
