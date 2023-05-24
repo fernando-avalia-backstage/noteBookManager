@@ -1,0 +1,24 @@
+name: Deploy the application
+
+on:
+  push:
+    branches: [main]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checking out code
+      uses: actions/checkout@v2
+    
+    - name: Setting up java env
+      uses: actions/setup-java@v1
+      with:
+        java-version: 12
+    
+    - name: grant permissions
+      run: chmod +x mvnw
+    
+    - name: build action
+      run: ./mvnw build
+    
